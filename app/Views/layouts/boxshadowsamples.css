@@ -1,0 +1,19 @@
+/* * {
+     -webkit-box-shadow: inset 0px 0px 0px 1px rgba(97, 35, 35, 0.5); 
+    -moz-box-shadow: inset 0px 0px 0px 1px rgba(97,35,35,0.5);
+    box-shadow: inset 0px 0px 0px 1px rgba(97,35,35,0.5);
+   /* box-shadow: inset 5em 1em gold; 
+    
+    
+} */
+/* *{
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+} */
+/* .sha{
+box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+border-color: #28a745;
+} */

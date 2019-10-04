@@ -1,0 +1,144 @@
+.col-x {
+  -ms-flex: 0 0 36.566667%;
+  flex: 0 0 36.566667%;
+  max-width: 36.566667%;
+}
+.col-z {
+  -ms-flex: 0 0 31.566667%;
+  flex: 0 0 31.566667%;
+  max-width: 31.566667%;
+}
+.col-y {
+  -ms-flex: 0 0 39.466667%;
+  flex: 0 0 39.466667%;
+  max-width: 39.466667%;
+}
+/* col-e = menu a esquerda*/
+.col-e {
+  -ms-flex: 0 0 25.466667%;
+  flex: 0 0 25.466667%;
+  max-width: 25.466667%;
+}
+/* *{
+  box-shadow: 0px 0px 0px 1px rgba(59, 43, 91, 0.7);
+}  */
+
+.btn-100 {
+    width: 100px;   
+   }
+   .btn-150 {
+    width: 150px;   
+   }
+   .btn-200 {
+    width: 200px;   
+   }
+   .btn-250 {
+    width: 250px;   
+   }
+   #ancora a{
+    float:right;
+    clear:right;
+}
+/* configurações particulares */
+.mtop-10 {
+  margin-top: 3rem;
+}
+.cor {
+  background-color: rgb(204, 204, 16);
+}
+
+/* 
+Configuração dos menus
+*/
+.navbar {
+    width: 100%;
+    background-color: rgb(255, 102, 0);
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: yellow;
+  }
+  .navbar a:focus {
+    background-color: green;
+  }
+  
+  .active {
+    background-color: green;
+    
+  }
+  /* body {
+    font-family: "Lato", sans-serif;
+  } */
+  .sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 50;
+    left: 0;
+    background-color: rgb(255, 102, 0);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    /* padding: 6px 8px 6px 16px; */
+    padding: 12px;
+
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    display: block;
+  }
+  .sidenav a:focus {
+    background-color: green;
+  }
+  
+  .sidenav a:hover {
+    background-color: yellow;
+    color: green;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    line-height: 40px; /* Vertically center the text there */
+    background-color: black;
+    color: white;
+  }
+  body {
+    margin-bottom:40px;
+  }
+  
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 17px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  
+
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 15px;}
+  }
+  
+   
